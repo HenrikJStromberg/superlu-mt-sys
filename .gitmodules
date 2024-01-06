@@ -1,3 +1,4 @@
-[submodule "superlu"]
+[submodule "source"]
 	path = source
-	url = https://github.com/copies/superlu
+	url = git@github.com:xiaoyeli/superlu_mt.git
+	branch = master
