@@ -12,6 +12,9 @@ keywords = ["linear-algebra"]
 build = "build.rs"
 links = "superlu"
 
+[build-dependencies]
+cmake = "0.1.50"
+
 [dependencies]
 libc = "0.2"
 openblas-src = { version = "0.10.8", features = ["cache"] }
